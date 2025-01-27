@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D1E49A032CB57A0A0057A518 /* PRG4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRG4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1E49A192CB57A0C0057A518 /* PRG4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRG4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1E49A232CB57A0C0057A518 /* PRG4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRG4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E49A032CB57A0A0057A518 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E49A192CB57A0C0057A518 /* CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E49A232CB57A0C0057A518 /* CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D1E49A2B2CB57A0C0057A518 /* Exceptions for "PRG4" folder in "PRG4" target */ = {
+		D1E49A2B2CB57A0C0057A518 /* Exceptions for "PRG4" folder in "Calc" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D1E49A022CB57A0A0057A518 /* PRG4 */;
+			target = D1E49A022CB57A0A0057A518 /* Calc */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		D1E49A052CB57A0A0057A518 /* PRG4 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D1E49A2B2CB57A0C0057A518 /* Exceptions for "PRG4" folder in "PRG4" target */,
+				D1E49A2B2CB57A0C0057A518 /* Exceptions for "PRG4" folder in "Calc" target */,
 			);
 			explicitFileTypes = {
 				AppDelegate.swift = sourcecode.swift;
@@ -102,9 +102,9 @@
 		D1E49A042CB57A0A0057A518 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1E49A032CB57A0A0057A518 /* PRG4.app */,
-				D1E49A192CB57A0C0057A518 /* PRG4Tests.xctest */,
-				D1E49A232CB57A0C0057A518 /* PRG4UITests.xctest */,
+				D1E49A032CB57A0A0057A518 /* Calc.app */,
+				D1E49A192CB57A0C0057A518 /* CalcTests.xctest */,
+				D1E49A232CB57A0C0057A518 /* CalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1E49A022CB57A0A0057A518 /* PRG4 */ = {
+		D1E49A022CB57A0A0057A518 /* Calc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1E49A2C2CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4" */;
+			buildConfigurationList = D1E49A2C2CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "Calc" */;
 			buildPhases = (
 				D1E499FF2CB57A0A0057A518 /* Sources */,
 				D1E49A002CB57A0A0057A518 /* Frameworks */,
@@ -127,16 +127,16 @@
 			fileSystemSynchronizedGroups = (
 				D1E49A052CB57A0A0057A518 /* PRG4 */,
 			);
-			name = PRG4;
+			name = Calc;
 			packageProductDependencies = (
 			);
 			productName = PRG4;
-			productReference = D1E49A032CB57A0A0057A518 /* PRG4.app */;
+			productReference = D1E49A032CB57A0A0057A518 /* Calc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1E49A182CB57A0C0057A518 /* PRG4Tests */ = {
+		D1E49A182CB57A0C0057A518 /* CalcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1E49A312CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4Tests" */;
+			buildConfigurationList = D1E49A312CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "CalcTests" */;
 			buildPhases = (
 				D1E49A152CB57A0C0057A518 /* Sources */,
 				D1E49A162CB57A0C0057A518 /* Frameworks */,
@@ -150,16 +150,16 @@
 			fileSystemSynchronizedGroups = (
 				D1E49A1C2CB57A0C0057A518 /* PRG4Tests */,
 			);
-			name = PRG4Tests;
+			name = CalcTests;
 			packageProductDependencies = (
 			);
 			productName = PRG4Tests;
-			productReference = D1E49A192CB57A0C0057A518 /* PRG4Tests.xctest */;
+			productReference = D1E49A192CB57A0C0057A518 /* CalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D1E49A222CB57A0C0057A518 /* PRG4UITests */ = {
+		D1E49A222CB57A0C0057A518 /* CalcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1E49A342CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4UITests" */;
+			buildConfigurationList = D1E49A342CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "CalcUITests" */;
 			buildPhases = (
 				D1E49A1F2CB57A0C0057A518 /* Sources */,
 				D1E49A202CB57A0C0057A518 /* Frameworks */,
@@ -173,11 +173,11 @@
 			fileSystemSynchronizedGroups = (
 				D1E49A262CB57A0C0057A518 /* PRG4UITests */,
 			);
-			name = PRG4UITests;
+			name = CalcUITests;
 			packageProductDependencies = (
 			);
 			productName = PRG4UITests;
-			productReference = D1E49A232CB57A0C0057A518 /* PRG4UITests.xctest */;
+			productReference = D1E49A232CB57A0C0057A518 /* CalcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1E499FE2CB57A0A0057A518 /* Build configuration list for PBXProject "PRG4" */;
+			buildConfigurationList = D1E499FE2CB57A0A0057A518 /* Build configuration list for PBXProject "Calc" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1E49A022CB57A0A0057A518 /* PRG4 */,
-				D1E49A182CB57A0C0057A518 /* PRG4Tests */,
-				D1E49A222CB57A0C0057A518 /* PRG4UITests */,
+				D1E49A022CB57A0A0057A518 /* Calc */,
+				D1E49A182CB57A0C0057A518 /* CalcTests */,
+				D1E49A222CB57A0C0057A518 /* CalcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,12 +275,12 @@
 /* Begin PBXTargetDependency section */
 		D1E49A1B2CB57A0C0057A518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D1E49A022CB57A0A0057A518 /* PRG4 */;
+			target = D1E49A022CB57A0A0057A518 /* Calc */;
 			targetProxy = D1E49A1A2CB57A0C0057A518 /* PBXContainerItemProxy */;
 		};
 		D1E49A252CB57A0C0057A518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D1E49A022CB57A0A0057A518 /* PRG4 */;
+			target = D1E49A022CB57A0A0057A518 /* Calc */;
 			targetProxy = D1E49A242CB57A0C0057A518 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRG4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PRG4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calc";
 			};
 			name = Debug;
 		};
@@ -495,7 +495,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRG4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PRG4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calc";
 			};
 			name = Release;
 		};
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1E499FE2CB57A0A0057A518 /* Build configuration list for PBXProject "PRG4" */ = {
+		D1E499FE2CB57A0A0057A518 /* Build configuration list for PBXProject "Calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1E49A2F2CB57A0C0057A518 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1E49A2C2CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4" */ = {
+		D1E49A2C2CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "Calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1E49A2D2CB57A0C0057A518 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1E49A312CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4Tests" */ = {
+		D1E49A312CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "CalcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1E49A322CB57A0C0057A518 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1E49A342CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "PRG4UITests" */ = {
+		D1E49A342CB57A0C0057A518 /* Build configuration list for PBXNativeTarget "CalcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1E49A352CB57A0C0057A518 /* Debug */,
